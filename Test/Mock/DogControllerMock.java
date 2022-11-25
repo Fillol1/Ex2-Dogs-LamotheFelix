@@ -23,6 +23,12 @@ public class DogControllerMock implements IDogControllerMock{
 	public boolean hasBeenCalled() {
 		// TODO Auto-generated method stub
 		return this.hasBeenCalled;
+	}
+
+	@Override
+	public void wentToList() {
+		// TODO Auto-generated method stub
+		hasBeenCalled = true;
 	}	
 
 }

@@ -4,4 +4,5 @@ import Repository.IDogRepository;
 
 public interface IDogRepositoryMock extends IDogRepository{
 	public boolean hasBeenCalled();
+	public void setHasBeenCalledFalse();
 }

@@ -5,4 +5,5 @@ import dogs.model.DogDTO;
 public interface IDogController {
 	void goToCreate();
 	void add(DogDTO dog);
+	void wentToList();
 }

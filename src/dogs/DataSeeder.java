@@ -13,9 +13,9 @@ public class DataSeeder {
 	
 	public void seed() {
 		repository.add(new Dog("Raoul", "Bolder", 0));
-		repository.add(new Dog("Pierre", "Husky", 0));
-		repository.add(new Dog("George", "Neige", 0));
-		repository.add(new Dog("Jean-Luc", "Jaune", 0));
-		repository.add(new Dog("Bertrant", "Batard", 0));
+		repository.add(new Dog("Pierre", "Husky", 1));
+		repository.add(new Dog("George", "Neige", 2));
+		repository.add(new Dog("Jean-Luc", "Jaune", 3));
+		repository.add(new Dog("Bertrant", "Batard", 4));
 	}
 }

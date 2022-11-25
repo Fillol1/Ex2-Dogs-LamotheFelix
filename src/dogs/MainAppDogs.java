@@ -6,7 +6,6 @@ import dogs.controller.DogController;
 import dogs.controller.IWelcomeController;
 import dogs.controller.WelcomeController;
 import dogs.view.IDogController;
-import dogs.view.WelcomeView;
 
 public class MainAppDogs {
 

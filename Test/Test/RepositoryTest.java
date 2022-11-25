@@ -32,4 +32,18 @@ public class RepositoryTest {
 		
 		assertTrue(repository.hasBeenCalled() == true);
 	}
+	
+	@Test 
+	public void CanGetListSize() {
+		repository.add(new Dog("a", "a", 0));
+		
+		assertTrue(repository.size() == 1);
+	}
+	
+	@Test 
+	public void CanGetDog() {
+		repository.add(new Dog("a", "a", 0));
+		
+		assertTrue(repository.searchedById(0) != null);
+	}
 }

@@ -37,4 +37,10 @@ public class ControllerTest {
 		this.dogController.add(null);
 		assertTrue(this.dogController.hasBeenCalled() == true);
 	}
+	
+	@Test
+	public void DogControllerList() {
+		this.dogController.wentToList();
+		assertTrue(this.dogController.hasBeenCalled() == true);
+	}
 }

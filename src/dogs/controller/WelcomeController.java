@@ -21,4 +21,9 @@ public class WelcomeController implements IWelcomeController {
 		// TODO Auto-generated method stub
 		dogController.goToCreate();
 	}
+	@Override
+	public void goToList() {
+		// TODO Auto-generated method stub
+		dogController.wentToList();
+	}
 }

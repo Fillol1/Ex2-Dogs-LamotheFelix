@@ -17,8 +17,8 @@ public class DogMemoryRepository implements IDogRepository{
 	}
 	
 	public void add(Dog dog) {
-		nextId++;
-		dogs.put(this.nextId, dog);
+		dog.setId(dogs.size());
+		dogs.put(dog.getId(), dog);
 	}
 	
 	public Collection<Dog> getList(){
